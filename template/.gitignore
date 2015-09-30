@@ -1,0 +1,14 @@
+.DS_Store
+web_modules
+lib
+node_modules
+coverage
+dist
+logs
+*.log
+*.sublime*
+*.node
+*.orig
+.idea
+.bower.json
+

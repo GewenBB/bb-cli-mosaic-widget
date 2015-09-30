@@ -1,0 +1,25 @@
+{
+  "name": "<%=widget_name%>",
+  "version": "<%=widget_version%>",
+  "description": "<%=widget_description%>",
+  "main": "scripts/main.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "authors": [
+    "<%=widget_author%>"
+  ],
+  "moduleType": [
+    "umd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ]
+}

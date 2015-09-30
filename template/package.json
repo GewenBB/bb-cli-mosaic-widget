@@ -1,0 +1,22 @@
+{
+  "name": "<%=widget_name%>",
+  "version": "<%=widget_version%>",
+  "description": "<%=widget_description%>",
+  "main": "scripts/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha -r spec"
+  },
+  "repository": {
+    "type": "git"
+  },
+
+  "author": "<%=widget_author%>",
+  "dependencies":{},
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  }
+}
