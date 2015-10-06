@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:g="http://www.backbase.com/2008/gadget">
   <head>
-    <title><%=widget_name%></title>
+    <title><%=widget_title%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--ui-dev-->
     <link rel="stylesheet" type="text/css" href="styles/<%=widget_name%>.css"/>
   </head>
   <body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as main" class="<%=bundle_prefix%>-<%=widget_name%> ng-cloak">
 
+      <h2><%=widget_title%></h2>
 
   </body>
 </html>
