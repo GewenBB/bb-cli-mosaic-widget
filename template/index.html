@@ -4,9 +4,9 @@
     <title><%=widget_name%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--ui-dev-->
-    <link rel="stylesheet" type="text/css" href="styles/base.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/<%=widget_name%>.css"/>
   </head>
-  <body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as main" class="ng-cloak">
+  <body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as main" class="<%=bundle_prefix%>-<%=widget_name%> ng-cloak">
 
 
   </body>
