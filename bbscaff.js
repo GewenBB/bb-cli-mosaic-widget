@@ -17,7 +17,7 @@ module.exports = function(bbscaff) {
         {
             name: 'widget_author',
             message: 'Widget author',
-            'default': ''
+            'default': 'Author Name <author@backbase.com>'
         },
         {
             name: 'widget_version',
@@ -41,7 +41,7 @@ module.exports = function(bbscaff) {
         }
     ], function(answers){
         bbscaff.generate(answers, answers.widget_name, function() {
-            
+
         });
     });
 };
